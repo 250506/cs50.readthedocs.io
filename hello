@@ -1,0 +1,10 @@
+# inclure  < stdio.h >
+# inclure  < cs50.h >
+// Le programme demande le nom de l'utilisateur puis le salue
+int  principal ( vide )
+{
+    // get_string permet une entrée utilisateur qui est enregistrée dans le nom de la variable
+    string name = get_string ( " Quel est votre nom ? \n " );
+    // printf envoie juste un message au terminal
+    printf ( " bonjour, %s \n " , nom);
+}
